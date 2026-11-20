@@ -1,0 +1,14 @@
+request_mode = "parallel"
+request_order = [
+    "minehut",
+    "minekeep",
+    "mojang",
+]
+
+[[provider]]
+name = "Minehut"
+url = "https://api.minehut.com/mitm/proxy/session/minecraft/"
+
+[[provider]]
+name = "MineKeep"
+url = "https://sessionserver.minekeep.net/session/minecraft/"
