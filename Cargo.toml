@@ -1,0 +1,15 @@
+[package]
+name = "BetterAuth"
+version = "0.0.1"
+edition = "2024"
+authors = ["jamie.rs"]
+
+[dependencies]
+actix-web = "4.11.0"
+serde = { version = "1.0.228", features = ["derive"] }
+async-trait = "0.1.89"
+reqwest = { version = "0.12.24", features = ["json"] }
+futures = "0.3.31"
+uuid = { version = "1.18.1", features = ["v4"] }
+toml = "1.1.4"
+openssl = { version = "0.10", features = ["vendored"] }
